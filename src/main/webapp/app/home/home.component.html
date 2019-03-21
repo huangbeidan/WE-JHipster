@@ -1,0 +1,50 @@
+<div class="row">
+    <div class="col-md-3">
+        <span class="hipster img-fluid rounded"></span>
+    </div>
+    <div class="col-md-9">
+        <h1 class="display-4" >WELCOME TO WEALTH ENGINE</h1>
+        <p class="lead" >Your A.I Portfolio Manager</p>
+
+        <!--<h1 class="display-4" jhiTranslate="home.title">Hello, Sophia!</h1>-->
+        <!--<p class="lead" jhiTranslate="home.subtitle">This is your lalala lala</p>-->
+
+        <div [ngSwitch]="isAuthenticated()">
+
+            <table class="table table-striped">
+                <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Description</th>
+                    <th>Published Date</th>
+                    <th>Price</th>
+                </tr>
+
+                </thead>
+                <tbody>
+
+                <tr *ngFor="let book of books">
+
+                    <td>{{book.title}}</td>
+                    <td [innerHTML]="book.description"></td>
+                    <td>{{book.publicationDate}}</td>
+                    <td>Price is: {{book.price}}</td>
+                    <hr/>
+                </tr>
+                </tbody>
+
+
+
+
+            <div>
+                You have successfully signed in!
+            </div>
+
+
+            </table>
+
+        </div>
+
+
+</div>
+</div>

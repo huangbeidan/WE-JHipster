@@ -1,0 +1,40 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.wealthengine",
+      "nativeLanguage": "en"
+    },
+    "jhipsterVersion": "5.8.1",
+    "applicationType": "monolith",
+    "baseName": "WEPortfolio",
+    "packageName": "com.wealthengine",
+    "packageFolder": "com/wealthengine",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "MDVjMjNjNzIzZTAzZGI5Mzc3YmQwMTVmMDE2YjE0NDA0MzFiOTJlYTJiYTEzMTAwYzMzMjI2MmFjMTMzNzI4NjliNDVmNWMwOGQ4NTFiMDczOGMyNTk4ZWQ3NDk3MjFlYTdlZDA2MTIzYjQ2MzMzYTQ5Y2YwNDEwNjFhZTMyYzY=",
+    "clientFramework": "angularX",
+    "useSass": false,
+    "clientPackageManager": "npm",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": true,
+    "nativeLanguage": "en",
+    "languages": [
+      "en"
+    ]
+  }
+}

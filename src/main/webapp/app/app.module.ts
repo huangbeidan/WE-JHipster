@@ -18,6 +18,7 @@ import { WePortfolioHomeModule } from './home/home.module';
 import { WePortfolioAccountModule } from './account/account.module';
 import { WePortfolioEntityModule } from './entities/entity.module';
 import * as moment from 'moment';
+import { WePortfolioDashboardModule } from './dashboard/dashboard.module';
 // jhipster-needle-angular-add-module-import JHipster will add new module here
 import { JhiMainComponent, NavbarComponent, FooterComponent, PageRibbonComponent, ActiveMenuDirective, ErrorComponent } from './layouts';
 
@@ -36,6 +37,7 @@ import { JhiMainComponent, NavbarComponent, FooterComponent, PageRibbonComponent
         WePortfolioCoreModule,
         WePortfolioHomeModule,
         WePortfolioAccountModule,
+        WePortfolioDashboardModule,
         // jhipster-needle-angular-add-module JHipster will add new module here
         WePortfolioEntityModule,
         WePortfolioAppRoutingModule

@@ -42,6 +42,7 @@ public class CacheConfiguration {
             cm.createCache(com.wealthengine.domain.Authority.class.getName(), jcacheConfiguration);
             cm.createCache(com.wealthengine.domain.User.class.getName() + ".authorities", jcacheConfiguration);
             cm.createCache(com.wealthengine.domain.Book.class.getName(), jcacheConfiguration);
+            cm.createCache(com.wealthengine.domain.Portfolio.class.getName(), jcacheConfiguration);
             // jhipster-needle-ehcache-add-entry
         };
     }

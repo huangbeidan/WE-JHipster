@@ -32,16 +32,32 @@
                     <hr/>
                 </tr>
                 </tbody>
-
-
-
-
-            <div>
-                You have successfully signed in!
-            </div>
-
-
             </table>
+
+
+
+            <table class="table table-striped">
+                <thead>
+                <tr>
+                    <th>Symbol</th>
+                    <th>Shares</th>
+                    <th>Price</th>
+                </tr>
+
+                </thead>
+                <tbody>
+
+                <tr *ngFor="let portfolio of portfolios">
+
+                    <td>{{portfolio.symbol}}</td>
+                    <td [innerHTML]="portfolio.shares"></td>
+                    <td>Price is: {{portfolio.price}}</td>
+                    <hr/>
+                </tr>
+                </tbody>
+            </table>
+
+
 
         </div>
 
